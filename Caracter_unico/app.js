@@ -1,6 +1,6 @@
 //1 /\p{Sc}/gu;
 //2 /\p{White_Space}/gu;
-//3
+//3 /[\p{L}\p{Lu}\p{Ll}]/gu;
 //4 /[\p{L}\p{N}]+/gu;
 
 /*
@@ -20,9 +20,9 @@ let expresion= /\p{White_Space}/gu;
 console.log(texto.match(expresion))*/
 
 // ejercicio 3
-let texto = "φιλοσοφία philosophia hola 11sa "
+/*let texto = "φιλοσοφία philosophia hola 11sa "
 let expresion=/[\p{L}\p{Lu}\p{Ll}]/gu;
-console.log(texto.match(expresion))
+console.log(texto.match(expresion))*/
 
 //ejercicio 4
 /*let texto = "Este1 5w5 123"
